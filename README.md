@@ -8,7 +8,8 @@ This project is **not** maintained by CloudyKit; I just threw this together for 
 
 Adds basic syntax highlighting to `.jet` files including basic `html` syntax and some additional syntax highlighting for `.jet` keywords.
 
-\!\[basic highlighting\]\(img/1.png\)\(img/2.png\)
+\!\[highlighting example 1\]\(img/1.png\)
+\!\[highlighting example 2\]\(img/2.png\)
 
 ## Worth Knowing
 
