@@ -1,0 +1,26 @@
+{
+  "name": "jet",
+  "displayName": "jet-template",
+  "description": "An open source VS Code extension for the Golang Jet Templating tool to provide basic syntax   hylighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jet",
+      "aliases": ["Jet Template", "jet template"],
+      "extensions": [".jet"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jet",
+      "scopeName": "text.html.jet",
+      "path": "./syntaxes/jet.tmLanguage.json",
+      "injectTo": ["text.html.basic"]
+    }]
+  }
+}

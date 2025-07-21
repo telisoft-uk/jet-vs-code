@@ -1,0 +1,18 @@
+{
+  "iconDefinitions": {
+    "jet-icon": {
+      "iconPath": "./icons/jet-icon.svg"
+    }
+  },
+  "fileExtensions": {
+    "jet": "jet-icon"
+  },
+  "fileNames": {},
+  "languageIds": {},
+  "light": {
+    "fileExtensions": {
+      "jet": "jet-icon"
+    }
+  },
+  "highContrast": {}
+}

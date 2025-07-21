@@ -1,0 +1,55 @@
+{
+  "scopeName": "text.html.jet",
+  "patterns": [
+	{
+      "include": "text.html.basic"
+    },
+    {
+      "begin": "{{",
+      "end": "}}",
+      "name": "meta.embedded.jet",
+      "patterns": [
+		{
+          	"match": "\\b(if|else|range|end|block|extends|include)\\b",
+          	"name": "keyword.control.jet"
+        },
+		{
+			"match": "\\.",
+			"name": "punctuation.accessor.jet"
+		},
+		{
+			"match": "==|!=|<=|>=|<|>|&&|\\|\\||\\||\\?|:",
+			"name": "keyword.operator.jet"
+		},
+		{
+			"match": "\\(|\\)|,",
+			"name": "punctuation.jet"
+		},
+		{
+			"match": "\\d+",
+			"name": "constant.numeric.jet"
+		},
+		{
+			"match": "\"[^\"]*\"",
+			"name": "string.quoted.double.jet"
+		},
+		{
+			"match": "\\b(true|false)\\b",
+			"name": "constant.language.boolean.jet"
+		},
+		{
+			"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
+			"name": "variable.other.jet"
+		}
+      ]
+    },
+	{
+      "begin": "\\{\\*",
+      "end": "\\*\\}",
+      "name": "comment.block.jet"
+    }
+  ],
+  "fileTypes": ["jet"],
+  "name": "Jet Template",
+  "uuid": "6ef06b47-beff-401a-8382-ce89e9993e9c"
+}
