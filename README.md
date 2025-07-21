@@ -1,7 +1,6 @@
 # Jet Template README
 
-Unofficial Jet Template extension provides basic syntax highlighting support for ".jet" files using the JET templating format in Golang. The Jet template can be found here:  
-[GitHub](https://github.com/CloudyKit/jet).
+Unofficial Jet Template extension provides basic syntax highlighting support for ".jet" files using the JET templating format in Golang. The Jet template can be found here:  [GitHub](https://github.com/CloudyKit/jet).
 
 This project is **not** maintained by CloudyKit; I just threw this together for myself in a day because it was better than nothing.
 
