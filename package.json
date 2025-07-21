@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "publisher": "telisoft",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^^1.70.0"
   },
   "categories": [
     "Programming Languages"
