@@ -1,8 +1,9 @@
 {
-  "name": "jet",
+  "name": "jet-template",
   "displayName": "jet-template",
-  "description": "An open source VS Code extension for the Golang Jet Templating tool to provide basic syntax   hylighting",
+  "description": "An open source VS Code extension for the Golang Jet Templating tool to provide basic syntax hylighting",
   "version": "0.0.1",
+  "publisher": "telisoft",
   "engines": {
     "vscode": "^1.102.0"
   },
@@ -12,7 +13,7 @@
   "contributes": {
     "languages": [{
       "id": "jet",
-      "aliases": ["Jet Template", "jet template"],
+      "aliases": ["Jet Template", "jet template", "jet-template"],
       "extensions": [".jet"],
       "configuration": "./language-configuration.json"
     }],
@@ -22,5 +23,9 @@
       "path": "./syntaxes/jet.tmLanguage.json",
       "injectTo": ["text.html.basic"]
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telisoft-uk/jet-vs-code"
   }
 }
